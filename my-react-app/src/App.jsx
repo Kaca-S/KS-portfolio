@@ -6,6 +6,7 @@ import About from "./Pages/About.jsx";
 import Navbar from './Navbar.jsx';
 import Portfolio from './Pages/Portfolio.jsx';   
 
+
 function App() {
   return(
     <BrowserRouter>
