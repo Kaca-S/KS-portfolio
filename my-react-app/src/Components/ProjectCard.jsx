@@ -10,12 +10,13 @@ function ProjectCard({
   whatItDoes, 
   whatILearned, 
   challengesSolved,
-  role 
+  role,
+  onClick
 }) {
     const myRepo = "https://github.com/Kaca-S/My-projects-portfolio";
 
   return (
-    <div className="project-card">
+    <div className="project-card" onClick={onClick}>
       <h3 className="project-title">{name}</h3>
       <img src={screenshot} alt={`${name} screenshot`} className="project-image" />
       <div className="project-info">
