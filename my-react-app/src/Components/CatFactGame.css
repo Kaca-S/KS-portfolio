@@ -1,0 +1,40 @@
+.cat-fact-game {
+  font-family: 'Roboto', sans-serif;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.title-game {
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+.cat-fact-game button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #ff6b81;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cat-fact-game button:hover {
+  background-color: #ff4c61;
+}
+
+.fact-box {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #333;
+  background: #f0f8ff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}

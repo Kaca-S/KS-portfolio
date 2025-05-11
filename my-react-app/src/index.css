@@ -1,6 +1,10 @@
 .home-btn {
   font-size: 2em;
   padding: 10px;
+}
 
-
+.cat-page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0;
 }
