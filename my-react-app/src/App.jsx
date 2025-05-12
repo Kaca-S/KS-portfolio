@@ -6,6 +6,7 @@ import About from "./Pages/About.jsx";
 import Navbar from './Navbar.jsx';
 import Portfolio from './Pages/Portfolio.jsx';   
 import CatFactPage from "./Pages/CatFactPage";
+import RegisterPage from "./Pages/RegisterPage";
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <Route path="/about" element={<About/>}/>
     <Route path="/portfolio" element={<Portfolio/>}/>
     <Route path="/cat-facts" element={<CatFactPage />} />
+    <Route path="/register" element={<RegisterPage />} />
     </Routes>
     </BrowserRouter>
    /* <div>
