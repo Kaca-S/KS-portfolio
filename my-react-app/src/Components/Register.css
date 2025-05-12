@@ -6,6 +6,7 @@
   background-color: #f9f9f9;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .register-container h2 {
@@ -29,6 +30,7 @@
   background-color: #28a745;
   color: white;
   font-weight: bold;
+  font-size: 1rem;
   border: none;
   padding: 0.7rem;
   border-radius: 6px;
